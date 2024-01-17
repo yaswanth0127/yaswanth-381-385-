@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    
+    <p>employees. The human resources data that is available within organizations has the
+            potential to help support their decision-making processes. The challenge is identifying
+            useful information in vast human resources databases that are the result of the automa-tion of HR-related transaction processing.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data mining may be regarded as an evolving approach to data analysis in very large
+                databases that could become a useful tool to HR professionals. Data mining involves
+                extracting knowledge based on patterns of data in very large databases. Yet, data mining
+                goes beyond simply performing data analysis on large data sets. Organizations that
+                employ thousands of employees and track a multitude of employment-related information
+                might find valuable information patterns contained within their databases to provide
+                insights in such areas as employee retention and compensation planning. To develop
+                an understanding of the potential of data mining HR information in a firm, this chapter
+                will first discuss how HR-related information contributes to a firm’s competitive advan-tage. Next, we will discuss the components of Human Resource Information Systems
+                (HRIS) and gain an understanding of the steps in the data-mining process. Finally, we
+                will identify opportunities as well as concerns in applying data-mining techniques to HR
+                Information Systems.</p>
+                <center><h2>BACKGROUND</h2></center>
+                <h3>Building a Competitive Advantage
+                </h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The resource-based view of the firm posits that organizational resources and
+                    capabilities that are simultaneously rare, valuable, non-substitutable, and imperfectly
+                    imitable form the basis for a firm’s sustainable competitive advantage (Barney,1991). If
+                    a firm is able to uniquely manage its most valuable asset—its people— then it may be
+                    able to differentiate itself from the competition to create an advantage. Boxall (1993)
+                    suggests HR management can create a sustained competitive advantage by “hiring and
+                    developing talented staff and ‘synergizing’ their contributions within the resource
+                    bundle of the firm (p. 66).” Huselid, Jackson, and Schuler (1997) found investments in
+                    a firm’s human resources are a potential source of competitive advantage in their
+                    examination of HR effectiveness. However, many organizations lack the management
+                    know-how or the information necessary to make strategic human resource decisions.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The competitive advantage is sustained if other firms are unable to imitate their
+                        resources. The management of a firm’s human resources is often less susceptible to
+                        imitation because competitors rarely have access to a firm’s HR management practices,
+                        as these practices are not transparent to those outside of the company (Pfeffer, 1994).
+                        For this reason, effective HR management provides a unique opportunity for firms to
+                        establish a sustainable competitive position. One step in the process of developing a
+                        firm’s human resources involves planning. Human resource planning goes hand in hand
+                        with an organization’s strategic planning. As a firm develops its business strategy, it
+                        must consider the abilities of its staff to meet its strategy. As a firm identifies its strategy,
+                        HR must then ensure the strategy’s success by ensuring the right HR resources are in
+                        place. HR must collect, store, and analyze data to move forward in the planning process.</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All organizations collect data about their employees. However, the actions taken
+                            with that data varies widely among organizations. Some organizations use the data only
+                            </p>
+                        <p>to perform required administrative tasks. Others transform the data into useful informa-tion for support in decision making (Kovach & Cathcart, 1999). Using HR data in
+                            decisionmaking provides a firm with the opportunity to make more informed strategic
+                            decisions. If a firm can extract useful or unique information on the behavior and potential
+                            of its people from HR data, it can contribute to the firm’s strategic planning process.
+                            Another type of information a firm may seek is the evaluation of the effectiveness of its
+                            HR practices. Often a firm implements a recruiting source or training program, for example,
+                            without any clear method of evaluating the practice. Analyzing the data collected in the
+                            implementation and management of an HR practice can provide another resource for HR-related decisionmaking.</p>
+                            <h3>Human Resource Information Systems
+                            </h3>    
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many organizations today have purchased or designed databases to collect,
+                                manage, and retrieve human resource-related data. As stated earlier, a HRIS serves two
+                                primary purposes. The first purpose is administrative in nature. In order to conduct basic
+                                human resource transactions such as payroll, benefits administration, and government
+                                reporting, organizations must collect basic personal and work-related data. The second
+                                purpose is to support organizational decisionmaking (Kovach & Cathcart., 1999) A HRIS
+                                is often an expensive investment for a firm, and the ability to use the data collected
+                                beyond only administrative issues can help justify that investment.</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The HR information systems of most organizations today feature relational database systems that allow data to be stored in separate files that can be linked by common
+                                    elements such as name or identification number. The relational database provides
+                                    organizations with the ability to keep a virtually limitless amount of data on employees.
+                                    It also allows organizations to access the data in a variety of ways. For example, a firm
+                                    can retrieve data on a particular employee or it can retrieve data on a certain group of
+                                    employees through conducting a search based on a specific parameter such as job
+                                    classification. The development of relational databases in organizations along with
+                                    advances in storage technology has resulted in organizations collecting a large amount
+                                    of data on employees</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Table 1 outlines some examples of the type of data that can be captured and stored
+                                        in an HRIS. Table 2 outlines some typical functional uses of the data. Every organization</p>
+                                        <p><i></i>Table 1: Data collected by an HRIS</i></p>
+                                        <table>
+                                            <table style="width:100%">
+                                                <tr>
+                                                  <th>Employee Data</th>
+                                                  <th>Organization Job Data</th>
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  <td>&nbsp;&nbsp;Name <br>
+                                                    &nbsp;&nbsp;Social security number <br>
+                                                    &nbsp;&nbsp;Date of birth<br> 
+                                                    &nbsp;&nbsp;Gender<br> 
+                                                    &nbsp;&nbsp;Race <br>
+                                                    &nbsp;&nbsp;Marital Status <br>
+                                                    &nbsp;&nbsp;Address <br>
+                                                    &nbsp;&nbsp;Telephone Number <br>
+                                                    &nbsp;&nbsp;Emergency Contact <br>
+                                                    &nbsp;&nbsp;Dependent Information<br> 
+                                                    &nbsp;&nbsp;Education</td>
+                                                  
+                                                
+                                                
+                                                    <td> &nbsp;&nbsp;Pre-employment test scores <br>
+                                                        &nbsp;&nbsp;Job title <br>
+                                                        &nbsp;&nbsp;Job grade <br>
+                                                        &nbsp;&nbsp;Salary <br>
+                                                        &nbsp;&nbsp;Benefit selections <br>
+                                                        &nbsp;&nbsp;Performance appraisal ratings <br>
+                                                        &nbsp;&nbsp;Promotional history <br>
+                                                        &nbsp;&nbsp;Corrective action records <br>
+                                                        &nbsp;&nbsp;Attendance history <br>
+                                                        &nbsp;&nbsp;Training records<br></td>
+                                                    
+                                                </tr>
+                                              </table>
+                                           <p><i>Table 2: Functional use of data collected by an HRIS</i></p>
+                                           <table style="width: 100%">
+                                            <tr>
+                                                <th>Functions Using Data</th>
+                                                <th>Regularly Generated and Ad Hoc Reports </th>
+                                            </tr>
+                                            <tr>
+                                                <td><br>&nbsp;&nbsp;Compensation and Benefits <br>
+                                                    &nbsp;&nbsp;Health and Safety<br> 
+                                                    &nbsp; &nbsp;Performance Appraisal <br>
+                                                    &nbsp;&nbsp;Training and Development <br>
+                                                    &nbsp;&nbsp;EEO/AA <br>
+                                                    &nbsp;&nbsp;Recruiting and Placement <br>
+                                                    &nbsp;&nbsp;Labor Relations<br>
+                                                </td>
+                                                <td>&nbsp;&nbsp;Payroll runs <br>
+                                                    &nbsp;&nbsp;Benefit costs <br>
+                                                    &nbsp;&nbsp;Recruiting effectiveness <br>
+                                                    &nbsp;&nbsp;Supply/demand forecasting <br>
+                                                    &nbsp;&nbsp;Transaction histories<br> Training completed <br>
+                                                    &nbsp;&nbsp;Adverse impact analysis<br> </td>    
+                                            </tr>
+                                           </table>
+                                           <p><i>Adapted from: Fisher, Schoenfeldt and Shaw (1999)</i></p>
+                                           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;varies in the type of data it collects related to its employees. However, this outline will
+                                            serve as an example of the kinds of data collected and typical uses of that data.</p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organizations also use data stored in their HRIS to make calculations to evaluate
+                                                the financial impact of their HR-related practices. HR functions use this type of
+                                                information to support the continued development of HR programs and also demonstrate
+                                                to managers how HR can help impact the bottom line. Some examples of these kinds of
+                                                calculations are pay and benefits as a percent of operating expense, cost per hire, return
+                                                on training, and turnover cost (Fitz-Enz, 1998).
+                                            </p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While these calculations are helpful to quantify the value of some HR practices, the
+                                                    bottom-line impact of HR practices is not always so clear. One can evaluate the cost
+                                                    per hire, but does that information provide any reference to the value of that hire? Should
+                                                    a greater value be assessed to an employee who stays with the organization for an
+                                                    extended period of time? Most data analysis retrieved from HRIS does not provide an
+                                                    opportunity to seek out additional relationships beyond those that the system was
+                                                    originally designed to identify.
+                                                </p>
+                                                <h3>Data Mining</h3>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Traditional data analysis methods often involve manual work and interpretation of
+                                                    data that is slow, expensive, and highly subjective (Fayyad, Piatsky-Shapiro, & Smyth,
+                                                    1996). For example, if an HR professional is interested in analyzing the cost of turnover,
+                                                    he or she might have to extract data from several different sources, such as accounting
+                                                    records, termination reports, and personnel hiring records. That data is then combined,
+                                                    reconciled, and evaluated. This process creates many opportunities for errors. As
+                                                    business databases have grown in size, the traditional approach has grown more
+                                                    impractical. Data mining is the process of extracting information from really large data
+                                                    sets through the use of algorithms and techniques drawn from the fields of statistics,
+                                                    machine learning, and database management (Feelders, Daniels, & Holsheimer, 2000).
+                                                    Data mining has been used successfully in many functional areas such as finance and
+                                                    marketing. HRIS applications in many organizations provide an as yet unexplored
+                                                    opportunity to apply data-mining techniques. These systems typically hold a large
+                                                    amount of data —a requirement for data mining. While most applications provide
+                                                    opportunities to generate adhoc or standardized reports from specific sets of data, the
+                                                </p>
+                                                <p>relationships between the data sets are rarely explored. It is this type of relationship that
+                                                    data mining seeks to discover.
+                                                </p>
+                                                <h3>Data Warehouses and Datamarts
+                                                </h3>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data-mining projects have been pursued, or at least attempted, for a long time.
+                                                    Several years ago, one of the authors worked in a university office of institutional
+                                                    research and studies. This office was charged with various queries, reporting, and
+                                                    decision-support assignments involving both students and personnel. Quite often, data
+                                                    was needed over a period of years for these projects. However, data files for previous
+                                                    years were difficult to locate and manipulate. Also, inconsistencies of various kinds tend
+                                                    to occur from year to year. For example, code systems and category definitions tend to
+                                                    mutate as time goes by. Similar problems have been experienced in most other organi-zations as well. Such projects were often practically impossible.
+                                                </p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These problems led to the creation of special databases—typically relational
+                                                    databases that are integrated, consistent, and multidimensional, with time being the
+                                                    principal added dimension. When these special databases cover all of the data for an
+                                                    organization, they are called data warehouses. When they cover just one functional area,
+                                                    such as human resources, they are called datamarts. (See for example Agosta, 2000; Gray
+                                                    & Watson, 1998; and Mallach, 2000). A data warehouse is essentially a separate,
+                                                    customized repository of data for decision-support applications (Watson & Haley, 1998).
+                                                    They are kept separate from operational data. Data warehouses are widely regarded as
+                                                    a useful resource to consolidate corporate information and share it among organizational
+                                                    entities for the purpose of analysis and decision-making support (Subramanian, Smith,
+                                                    Nelson, Campbell, & Bird, 1997). This can be a costly endeavor, and the investment may
+                                                    not be worthwhile depending on the use an organization expects. The decision to enable
+                                                    data mining often necessitates at least the implementation of a datamart. Companies who
+                                                    have implemented enterprise resource planning (ERP) systems will often find this facility
+                                                    to be included with the ERP system, which itself can be quite expensive and time-consuming. However, without at least a datamart, if not a comprehensive data ware-house, data-mining projects would be doomed to laborious preliminary data collection,
+                                                    editing, and formatting.
+                                                </p>
+                                                <h3>Data Mining Versus Traditional Data Analysis
+                                                </h3>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is worth reviewing here the connections and differences between data mining and
+                                                    the more familiar activities of reports, queries, and routine statistical studies applied to
+                                                    a database. Queries and reports (reports are usually based on queries) are structured
+                                                    questions submitted to a database. For example, if an organization wanted to compare
+                                                    information on two different groups of employees, queries would be needed to extract
+                                                    the specific employees assigned to each group for further analysis. Thus, queries are
+                                                    typically an essential step in extracting data from the database. Data warehouses and
+                                                    datamarts greatly facilitate queries involving a time dimension. For example, trend
+                                                    analysis and forecasts require historical data that would be hard to obtain without such
+                                                    comprehensive databases. Such analysis might be applied to individual employee
+                                                    histories as part of performance analysis. Trends in statistics relating to Equal Employ
+                                                </p>
+                                                <p>ment Opportunity (EEO) could also be monitored in this way. In some respects, data
+                                                    mining can be regarded as a set of very sophisticated queries that involve sampling and
+                                                    statistical modeling. In any case, the additional query capabilities and uses should be
+                                                    factored into the decisions on implementation of a data warehouse or datamart for data-mining use.
+                                                </p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Decision-support system applications may also be regarded as predecessors to
+                                                    data-mining applications. Decision-support system applications are tools that allow
+                                                    users to collect data from databases, analyze the data, and represent the analysis in many
+                                                    forms, such as graphs and reports. These systems may use statistical modeling packages
+                                                    to analyze data leading to information to support decisions in organizations. These
+                                                    systems can combine information from other functional areas within the firm, such as
+                                                    customer service and marketing, to help support human resource management decisions
+                                                    (Broderick & Boudreau, 1992). For example, a user might build a statistical model to
+                                                    analyze data such as time to fill service requests and time to delivery as they relate to
+                                                    customer satisfaction levels. Information obtained from this analysis may then be used
+                                                    to establish performance goals for employees. While decision-support system applications may provide useful information for decision-makers in organizations, very specific
+                                                    analysis plans must be established. Essentially, the user must know what relationships
+                                                    exist before analyzing the data. Further, several iterations of the model may have to be
+                                                    tested before useful information can be identified.
+                                                </p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the authors of this chapter worked in a university office of institutional
+                                                    research and studies (OIRS). This office was responsible for certain decision-support
+                                                    and data-analysis studies that often involved university personnel. There was no
+                                                    datamart at the time. It was necessary to create special files from current databases and
+                                                    retain these year after year in order to do any kinds of longitudinal analyses. Special
+                                                    statistical studies were sometimes possible if the right data had been collected. An
+                                                    example was historical trends in Equal Opportunity Employment practices. Flexibility and
+                                                    usefulness depended on the foresight of office analysts. If they had collected the right
+                                                    data, then they would be able to respond to new requests from management, state and
+                                                    federal agencies, and so on. It that foresight had not been in effect, it was necessary to
+                                                    approximate or decline the information request, or to laboriously go through old files to
+                                                    reconstruct a usable database. While this permitted some statistical studies to be carried
+                                                    out, such limited access made data mining all but impossible. For specific statistical
+                                                    studies, one focuses on a specific set of variables and questions. For data mining, one
+                                                    essentially needs all the data to be accessible in a reasonably easy environment .and the
+                                                    specific questions may not always be known precisely.</p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descriptive statistics were often reported, especially those based on the current
+                                                    state of the system. Thus, it was possible for the OIRS to readily answer such questions
+                                                    as the age distribution of current faculty, its ethnic distribution, and gender distribution.
+                                                    However, to answer questions about trends in these data would require retaining the
+                                                    corresponding data from year to year. Ordinarily, only a small number of such yearly data
+                                                    sets might be retained. However, to make reasonable forecasts, for instance, a much
+                                                    longer series of data is required. More importantly, data-mining questions aimed at
+                                                    explaining the relationship of such trends to other variables in the system were practically
+                                                    impossible. Thus, data mining seeks to go beyond the old days of ordinary statistical
+                                                    reports showing only <i>what is.</i> It aims to find out more of the <i>how </i>and <i>why.</i>
+                                                    </p>
+
+                                            
+                                           
+
+    </body>
+</html>
+<style>
+    body{
+         margin-left:  275px;
+    margin-right: 300px;
+    }
+    a{float: right;}
+    table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse ;}
+</style>
